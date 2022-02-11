@@ -18,10 +18,14 @@ project deliverables should also be in
 your README.md as part of your
 outline, unless otherwise noted
 
-Technologies - MongoDB or PostGRs
+## Team Roles
+- Square (Repository) = Ruth
+- Circle (Data base) = David 
+- Triangle (Machine Learning) = Jesus  
+- X (Technologies for each step) = Grisell
 
-ROLES
-Square (Repository) = Ruth
-Circle (Data base) = David 
-Triangle (Machine Learning) = Jesus  
-X = Technologies for each step 
+## Technologies to use for each step of the project
+
+- Jupyter Notebook -  https://jupyter.org/
+An open source and practical platform that allows coding in multiple languajes and it is able to include text, images and so on, through the execution of the code in the kernel. 
+This source will help us to manipulate the data, in uses such as: cleaning, conversion,modeling the data, among other functions. 
