@@ -32,3 +32,7 @@ This source will help us to manipulate the data, in uses such as: cleaning, conv
 
 - PostgreSQL - https://www.postgresql.org/
 An open source relational database management system. It will allow us to define, create, and control the database.
+
+- RStudio - https://www.rstudio.com/
+An integrated development environment or add on of R, that indeed takes the R software and add it to a graphical interface.  
+It will help us to plot, debugg, and manage our data, mainly to find correlation between our inputs from the database. 
