@@ -1,7 +1,7 @@
 # Final_Project_7
 
 ## Selected Topic
-Impactos de Publicidad
+We are working 
 
 README.md must include: 
 
@@ -18,7 +18,20 @@ project deliverables should also be in
 your README.md as part of your
 outline, unless otherwise noted
 
-Technologies - MongoDB or PostGRs
+
+
+### Database
+
+
+
+### Machine Learning Model - Initial proposition
+
+
+
+
+
+### Technologies
+MongoDB or PostGRs
 
 ROLES
 Square (Repository) = Ruth
