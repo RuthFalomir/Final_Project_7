@@ -25,3 +25,10 @@ Square (Repository) = Ruth
 Circle (Data base) = David 
 Triangle (Machine Learning) = Jesus  
 X = Technologies for each step 
+
+
+## Dataset Schema
+| Primer encabezado | Segundo encabezado |
+| ------------- | ------------- |
+| Contenido de la celda  | Contenido de la celda  |
+| Contenido de la celda  | Contenido de la celda  |
