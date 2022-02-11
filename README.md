@@ -28,8 +28,8 @@ X = Technologies for each step
 
 
 ## Dataset Schema
-| Column | Description |
-| ------------- | ------------- |
+| Column | Data Type | Description |
+| ------------- | ------------- |  ------------- |
 | **Gender** | VARCHAR(6) | Gender of the passengers (Female/Male)  |
 | Customer_Type | VARCHAR(32)  | The customer type (Loyal customer/Disloyal customer)  |
 | Age | INT | The actual age of the passengers |
