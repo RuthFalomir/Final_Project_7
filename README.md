@@ -28,7 +28,7 @@ X = Technologies for each step
 
 
 ## Dataset Schema
-| Primer encabezado | Segundo encabezado |
+| Column | Description |
 | ------------- | ------------- |
-| Contenido de la celda  | Contenido de la celda  |
-| Contenido de la celda  | Contenido de la celda  |
+| Gender VARCHAR(6) | Gender of the passengers (Female/Male)  |
+| Customer_Type VARCHAR(32)  | The customer type (Loyal customer/Disloyal customer)  |
