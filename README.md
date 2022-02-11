@@ -29,3 +29,6 @@ outline, unless otherwise noted
 - Jupyter Notebook -  https://jupyter.org/
 An open source and practical platform that allows coding in multiple languajes and it is able to include text, images and so on, through the execution of the code in the kernel. 
 This source will help us to manipulate the data, in uses such as: cleaning, conversion,modeling the data, among other functions. 
+
+- PostgreSQL - https://www.postgresql.org/
+An open source relational database management system. It will allow us to define, create, and control the database.
