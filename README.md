@@ -33,6 +33,12 @@ The dataset contains an airline passenger satisfaction survey, the factors that 
 | **Type_Travel** | VARCHAR(32) | Purpose of the flight of the passengers (Personal Travel/Business Travel) |
 | **Class** | VARCHAR(16) | Travel class in the plane of the passengers (Business/Eco/Eco Plus) |
 | **Flight_distance** | INT | The flight distance of this journey |
+| **Inflight_WiFi_service** | SMALLINT | Satisfaction level of the inflight WiFi service (0:Not Applicable; 1-5) |
+| **Departure/Arrival_time** | SMALLINT | Satisfaction level of Departure/Arrival time convenient (1-5) |
+| **Ease_Online_booking** | SMALLINT | Satisfaction level of online booking (1-5) |
+| **Gate_location** | SMALLINT | Satisfaction level of Gate location (1-5) |
+| **Food_and_drink** | SMALLINT | Satisfaction level of Food and drink (1-5) |
+| **Online_boarding** | SMALLINT | Satisfaction level of online boarding (1-5) |
 
 ### Machine Learning Model - Initial proposition
 
