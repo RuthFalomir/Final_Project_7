@@ -23,6 +23,16 @@ We plan to maintain open communication and active listening to prevent minor con
 
 
 ### Database
+The dataset contains an airline passenger satisfaction survey, the factors that lead the customer satisfaction for an Airline. The dataset contains 25,976 rows for the test and 103,904 rows for training.
+
+| Column | Data Type | Description |
+| ------------- | ------------- |  ------------- |
+| **Gender** | VARCHAR(6) | Gender of the passengers (Female/Male)  |
+| **Customer_Type** | VARCHAR(32)  | The customer type (Loyal customer/Disloyal customer)  |
+| **Age** | INT | The actual age of the passengers |
+| **Type_Travel** | VARCHAR(32) | Purpose of the flight of the passengers (Personal Travel/Business Travel) |
+| **Class** | VARCHAR(16) | Travel class in the plane of the passengers (Business/Eco/Eco Plus) |
+| **Flight_distance** | INT | The flight distance of this journey |
 
 ### Machine Learning Model - Initial proposition
 
