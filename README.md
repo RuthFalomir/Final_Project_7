@@ -1,7 +1,7 @@
 # Final_Project_7
 
 ## Selected Topic
-Impactos de Publicidad
+We are working 
 
 README.md must include: 
 
@@ -18,13 +18,25 @@ project deliverables should also be in
 your README.md as part of your
 outline, unless otherwise noted
 
-## Team Roles
+
+### Team Roles
 - Square (Repository) = Ruth
 - Circle (Data base) = David 
 - Triangle (Machine Learning) = Jesus  
 - X (Technologies for each step) = Grisell
 
-## Technologies to use for each step of the project
+
+
+### Database
+
+
+
+### Machine Learning Model - Initial proposition
+
+
+
+
+### Technologies
 
 - **Jupyter Notebook** -  https://jupyter.org/
 
