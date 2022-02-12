@@ -39,6 +39,17 @@ The dataset contains an airline passenger satisfaction survey, the factors that 
 | **Gate_location** | SMALLINT | Satisfaction level of Gate location (1-5) |
 | **Food_and_drink** | SMALLINT | Satisfaction level of Food and drink (1-5) |
 | **Online_boarding** | SMALLINT | Satisfaction level of online boarding (1-5) |
+| **Seat_comfort** | SMALLINT | Satisfaction level of Seat comfort (1-5) |
+| **Inflight_entertainment** | SMALLINT | Satisfaction level of inflight entertainment (1-5) |
+| **On_board_service** | SMALLINT | Satisfaction level of On-board service (1-5) |
+| **Leg_room_service** | SMALLINT | Satisfaction level of Leg room service (1-5) |
+| **Baggage_handling** | SMALLINT | Satisfaction level of baggage handling (1-5) |
+| **Check_in_service** | SMALLINT | Satisfaction level of Check-in service (1-5) |
+| **Inflight_service** | SMALLINT | Satisfaction level of inflight service (1-5) |
+| **Cleanliness** | SMALLINT | Satisfaction level of Cleanliness (1-5) |
+| **Departure_Delay** | SMALLINT | Minutes delayed when departure (1-5) |
+| **Arrival_Delay** | SMALLINT | Minutes delayed when Arrival (1-5) |
+| **Satisfaction** | BOOLEAN | Airline satisfaction level (Satisfaction/neutral or dissatisfaction) |
 
 ### Machine Learning Model - Initial proposition
 
