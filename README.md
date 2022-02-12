@@ -26,6 +26,16 @@ We plan to maintain open communication and active listening to prevent minor con
 
 ### Machine Learning Model - Initial proposition
 
+## Supervised Learning Model
+
+Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions.
+
+Supervised learning is an approach to creating artificial intelligence, where a our algorithm is trained on input data of Airline Passenger Satisfaction,that has been labeled. The model will be trained until it can detect a relationships between the input data and the output labels.
+
+In this project we are determining the satisfaction for a future customer. 
+
+![Graph](images/MLM.png)
+
 
 ### Technologies
 
