@@ -51,9 +51,10 @@ The dataset contains an airline passenger satisfaction survey, the factors that 
 | **Arrival_Delay** | SMALLINT | Minutes delayed when Arrival (1-5) |
 | **Satisfaction** | BOOLEAN | Airline satisfaction level (Satisfaction/neutral or dissatisfaction) |
 
+
 ### Machine Learning Model - Initial proposition
 
-## Supervised Learning Model
+#### Supervised Learning Model
 
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions.
 
@@ -83,3 +84,4 @@ It will help us to plot, debugg, and manage our data, mainly to find correlation
 - **Tableau** - https://www.tableau.com
 
 Visualization software of interactive data that will help us to show the results in a better comprehensive way. 
+
