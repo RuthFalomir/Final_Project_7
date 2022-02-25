@@ -16,13 +16,16 @@ The tourism industry consists of hospitality, transportation, travel facilitatio
 
 Not only does the economy need an urgent uplift, but so does the job markets all over the world. Economic re-activation has to begin in every single industry. However, the importance of the travel and tourism sector cannot be underrated. (Source:https://wttc.org/Research/Economic-Impact#:~:text=In%202019%2C%20the%20Travel%20%26%20Tourism,to%20334%20million%20in%202019)
 
+
 ## Data sourcing
  For the purpose of this investigation, data was obtained from kaggle.com (https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction?select=test.csv). Kaggle is a crowd-sourced platform created to attract, nurture, train and challenge data scientists from all around the world to solve data science, machine learning and predictive analytics problems. It has over 536,000 active members from 194 countries and it receives close to 150,000 submissions per month. This particular dataset contains an airline passenger satisfaction survey with columns such as Age, Gender, Type of Travel, Flight Distance, among many others.
+
 
 ## Questions to address
 As stated previously, companies are actively trying to regain what was lost during the pandemic. Customers and jobs. In order to accomplish this goal, they are looking into several strategies and alternatives that help them gain new customers and maintain the ones already on board. This investigation aims to address the following question: "Are loyalty programs a valid strategy for airline companies to overcome post-pandemic hardships?". 
 
 In order to obtain some knowledge about the main issue at hand, a few other questions were born. First of all, can a machine learning model predict the type of customer (loyal vs disloyal) a ticket purchaser will become in the future? What factors are highly correlated to the decision to become a loyal customer? Secondly, which are the areas of opportunity?; especifically, where during the "buying of a ticket to completing the flight" process does the company lose or gain the client's loyalty? 
+
 
 ## Communication protocols
 Roles are assigned to every member of the investigation team. Based on these, coworkers know their particular set of activities and responsiblities and boundaries were set between each position in order to maintain a cohesive and ordered workspace. In order to accomplish an effective workflow, there is a team member assigned to manage any requests or complaints from the rest of the team. If there are any issues to be handled, there will be a 15-min session on Saturdays to work it out. 
@@ -34,4 +37,48 @@ The official tool for communicating is Slack. Any and all investigation related 
 ## Data exploration phase of the project 
 
 ## Description of the analysis phase of the project
+
+
+### Database
+The dataset contains an airline passenger satisfaction survey, the factors that lead the customer satisfaction for an Airline. The dataset contains 25,976 rows for the test and 103,904 rows for training.
+
+| Column | Data Type | Description |
+| ------------- | ------------- |  ------------- |
+| **Gender** | VARCHAR(6) | Gender of the passengers (Female/Male)  |
+| **Customer_Type** | VARCHAR(32)  | The customer type (Loyal customer/Disloyal customer)  |
+| **Age** | INT | The actual age of the passengers |
+| **Type_Travel** | VARCHAR(32) | Purpose of the flight of the passengers (Personal Travel/Business Travel) |
+| **Class** | VARCHAR(16) | Travel class in the plane of the passengers (Business/Eco/Eco Plus) |
+| **Flight_distance** | INT | The flight distance of this journey |
+| **Inflight_WiFi_service** | SMALLINT | Satisfaction level of the inflight WiFi service (0:Not Applicable; 1-5) |
+| **Departure/Arrival_time** | SMALLINT | Satisfaction level of Departure/Arrival time convenient (1-5) |
+| **Ease_Online_booking** | SMALLINT | Satisfaction level of online booking (1-5) |
+| **Gate_location** | SMALLINT | Satisfaction level of Gate location (1-5) |
+| **Food_and_drink** | SMALLINT | Satisfaction level of Food and drink (1-5) |
+| **Online_boarding** | SMALLINT | Satisfaction level of online boarding (1-5) |
+| **Seat_comfort** | SMALLINT | Satisfaction level of Seat comfort (1-5) |
+| **Inflight_entertainment** | SMALLINT | Satisfaction level of inflight entertainment (1-5) |
+| **On_board_service** | SMALLINT | Satisfaction level of On-board service (1-5) |
+| **Leg_room_service** | SMALLINT | Satisfaction level of Leg room service (1-5) |
+| **Baggage_handling** | SMALLINT | Satisfaction level of baggage handling (1-5) |
+| **Check_in_service** | SMALLINT | Satisfaction level of Check-in service (1-5) |
+| **Inflight_service** | SMALLINT | Satisfaction level of inflight service (1-5) |
+| **Cleanliness** | SMALLINT | Satisfaction level of Cleanliness (1-5) |
+| **Departure_Delay** | SMALLINT | Minutes delayed when departure (1-5) |
+| **Arrival_Delay** | SMALLINT | Minutes delayed when Arrival (1-5) |
+| **Satisfaction** | BOOLEAN | Airline satisfaction level (Satisfaction/neutral or dissatisfaction) |
+
+
+### Supervised Learning Model
+
+Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions.
+
+Supervised learning is an approach to creating artificial intelligence, where a our algorithm is trained on input data of Airline Passenger Satisfaction,that has been labeled. The model will be trained until it can detect a relationships between the input data and the output labels.
+
+In this project we are determining the satisfaction for a future customer. 
+
+![Graph](images/MLM.png)
+
+
+
 
