@@ -80,5 +80,23 @@ In this project we are determining the satisfaction for a future customer.
 ![Graph](images/MLM.png)
 
 
+### Technologies
 
+**Jupyter Notebook** -  https://jupyter.org/
+
+An open source and practical platform that allows coding in multiple languajes and it is able to include text, images and so on, through the execution of the code in the kernel. 
+This source will help us to manipulate the data, in uses such as: cleaning, conversion,modeling the data, among other functions. 
+
+**PostgreSQL** - https://www.postgresql.org/
+
+An open source relational database management system. It will allow us to define, create, and control the database.
+
+**RStudio** - https://www.rstudio.com/
+
+An integrated development environment or add on of R, that indeed takes the R software and add it to a graphical interface.  
+It will help us to plot, debugg, and manage our data, mainly to find correlation between our inputs from the database. 
+
+**Tableau** - https://www.tableau.com
+
+Visualization software of interactive data that will help us to show the results in a better comprehensive way. 
 
