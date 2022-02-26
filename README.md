@@ -34,9 +34,14 @@ During weekdays, the team meeting is designated on Tuesdays and Thursdays from 7
 
 The official tool for communicating is Slack. Any and all investigation related topics shall be discussed using the official channels in order to keep track of the team's progress. 
 
+
 ## Data exploration phase of the project 
+The investigation began by a general analysis of the tourism and travel industry and how it changed during the course of the pandemic, with the purpose of understading the current situation better. Once that was done, the data analytics team looked for databases that could be used to implement our proposed model and build up the prediction strategy. 
+
+Many databases were compared, looking for data that represented the current industry's situation more precisely. However, we are currently developing our machine-learning model based on the database previously mentioned. 
 
 ## Description of the analysis phase of the project
+At this point in the investigation, the team is tirelessly working towards achieving the best possible machine-learning model. Many tweaks are being analyzed in order to make our predictions stronger. 
 
 
 ### Database
@@ -73,7 +78,6 @@ The dataset contains an airline passenger satisfaction survey, the factors that 
 >>>>>>> 90e10896df947fd61c884d4b21e8b9b3d85e48c9
 
 ### Supervised Learning Model
-
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions.
 
 Supervised learning is an approach to creating artificial intelligence, where a our algorithm is trained on input data of Airline Passenger Satisfaction,that has been labeled. The model will be trained until it can detect a relationships between the input data and the output labels.
@@ -81,6 +85,33 @@ Supervised learning is an approach to creating artificial intelligence, where a 
 In this project we are determining the satisfaction for a future customer. 
 
 ![Graph](images/MLM.png)
+
+#### Preliminary data preprocessing 
+In order to clean and prepar the data for the model, several steps were established. They go as follows:
+1. It was first checked for null or empty values. If so, they were dropped from our dataframe.
+2. Secondly, every column was defined as either numerical or categorical. 
+3. Identifying unique values in every column.   
+4. Based on those unique values, categorical columns were encoded to transform them into numerical values.
+5. Bins were created for several numerical columns in order to better use data for analysis.
+6. Several columns were dropped because they were identifiers of some sort. 
+7. Data was then sent to Postgresql using Amazon Web Services. 
+
+#### Preliminary feature engineering and preliminary feature selection
+Based on available data, the decision was made to keep every column except for any column that worked as an identifier. This was decided because the rest of the columns referred to customer satisfaction and flight characteristics. Bottom line, all the rest of available columns have an impact on loyalty, and therefore, were considered to be important for the analysis.  
+
+#### Splitting data into training and testing sets
+The defined target was Customer type, where only two options are available: loyal or disloyal.
+On the other hand, our features can be found on the Database section of this document.  
+
+The data's split for the purpose of this model is as follows: 75% dedicated to training the model and 25% dedicated to testing the model. This decision was made based on the fact that the library train_test_split uses those arguments by default. 
+
+
+#### Explanation of model choice, including limitations and benefits
+The model chosen was logistic regression. These models are used to analyze data and, mathematically determining the probability of new samples belonging to a class. There are only two possible answers.
+
+For this investigation,  the objective was to predict whether new purchasing clients will be loyal or disloyal. The purpose of predicting this outcome is to create better loyalty programs and to dedicate resources to the right customers. 
+
+After creating the model, it was confirmed that this particular data could be correctly analyzed using this strategy.
 
 
 ### Technologies
@@ -103,3 +134,12 @@ It will help us to plot, debugg, and manage our data, mainly to find correlation
 
 Visualization software of interactive data that will help us to show the results in a better comprehensive way. 
 
+
+### Dashboard
+Tableau is a visual analytics engine that makes it easier to create interactive visual analytics in the form of dashboards.
+We choose Tableau to create our dashboard because is a powerful tool with data visualization capabilities and data can be analyzed very quickly. Tableau allows us to create workbooks with all the data to guide us in our exploration.
+
+The integration to work with raw data was definitively a key functionality so we can import our database and work directly in different worksheets. Adding datasets was very simple, we create a CSV file from the current database located in AWS. When we process all the dashboards it was easy to share the story and collaborate with the team.
+
+#### Description of interactive element(s)
+One of the most interesting tools that Tableau provides is interactivity. Some of the graphs created can be modified by the viewer using several filters in order to make a deeper analysis. The tableau dashboard can be viewed publicly here: https://public.tableau.com/views/SatisfactionFinal/PassengerSatisfaction?:language=en-US&:display_count=n&:origin=viz_share_link
