@@ -45,7 +45,7 @@ At this point in the investigation, the team is tirelessly working towards achie
 
 
 ### Database
-The dataset contains an airline passenger satisfaction survey, the factors that lead the customer satisfaction for an Airline. The dataset contains 25,976 rows for the test and 103,904 rows for training.
+The database contains an airline passenger satisfaction survey, the factors that lead the customer satisfaction for an Airline. The database contains 103,904 data points for training and 25,976 data points for test with the following columns:
 
 | Column | Data Type | Description |
 | ------------- | ------------- |  ------------- |
@@ -55,8 +55,6 @@ The dataset contains an airline passenger satisfaction survey, the factors that 
 | **Type_Travel** | VARCHAR(32) | Purpose of the flight of the passengers (Personal Travel/Business Travel) |
 | **Class** | VARCHAR(16) | Travel class in the plane of the passengers (Business/Eco/Eco Plus) |
 | **Flight_distance** | INT | The flight distance of this journey |
-<<<<<<< HEAD
-=======
 | **Inflight_WiFi_service** | SMALLINT | Satisfaction level of the inflight WiFi service (0:Not Applicable; 1-5) |
 | **Departure/Arrival_time** | SMALLINT | Satisfaction level of Departure/Arrival time convenient (1-5) |
 | **Ease_Online_booking** | SMALLINT | Satisfaction level of online booking (1-5) |
@@ -74,8 +72,6 @@ The dataset contains an airline passenger satisfaction survey, the factors that 
 | **Departure_Delay** | SMALLINT | Minutes delayed when departure (1-5) |
 | **Arrival_Delay** | SMALLINT | Minutes delayed when Arrival (1-5) |
 | **Satisfaction** | BOOLEAN | Airline satisfaction level (Satisfaction/neutral or dissatisfaction) |
-
->>>>>>> 90e10896df947fd61c884d4b21e8b9b3d85e48c9
 
 ### Supervised Learning Model
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions.
