@@ -50,27 +50,27 @@ The database contains an airline passenger satisfaction survey, the factors that
 | Column | Data Type | Description |
 | ------------- | ------------- |  ------------- |
 | **Gender** | varchar(6) | Gender of the passengers (Female/Male)  |
-| **Customer_Type** | varchar(32)  | The customer type (Loyal customer/Disloyal customer)  |
+| **Customer Type** | varchar(32)  | The customer type (Loyal customer/Disloyal customer)  |
 | **Age** | int | The actual age of the passengers |
-| **Type_Travel** | varchar(32) | Purpose of the flight of the passengers (Personal Travel/Business Travel) |
+| **Type Travel** | varchar(32) | Purpose of the flight of the passengers (Personal Travel/Business Travel) |
 | **Class** | varchar(16) | Travel class in the plane of the passengers (Business/Eco/Eco Plus) |
-| **Flight_distance** | int | The flight distance of this journey |
-| **Inflight_WiFi_service** | int | Satisfaction level of the inflight WiFi service (0:Not Applicable; 1-5) |
+| **Flight distance** | int | The flight distance of this journey |
+| **Inflight WiFi service** | int | Satisfaction level of the inflight WiFi service (0:Not Applicable; 1-5) |
 | **Departure/Arrival_time** | int | Satisfaction level of Departure/Arrival time convenient (1-5) |
-| **Ease_Online_booking** | int | Satisfaction level of online booking (1-5) |
-| **Gate_location** | int | Satisfaction level of Gate location (1-5) |
-| **Food_and_drink** | int | Satisfaction level of Food and drink (1-5) |
-| **Online_boarding** | int | Satisfaction level of online boarding (1-5) |
-| **Seat_comfort** | int | Satisfaction level of Seat comfort (1-5) |
-| **Inflight_entertainment** | int | Satisfaction level of inflight entertainment (1-5) |
-| **On_board_service** | int | Satisfaction level of On-board service (1-5) |
-| **Leg_room_service** | int | Satisfaction level of Leg room service (1-5) |
-| **Baggage_handling** | int | Satisfaction level of baggage handling (1-5) |
-| **Check_in_service** | int | Satisfaction level of Check-in service (1-5) |
-| **Inflight_service** | int | Satisfaction level of inflight service (1-5) |
+| **Ease Online booking** | int | Satisfaction level of online booking (1-5) |
+| **Gate location** | int | Satisfaction level of Gate location (1-5) |
+| **Food and drink** | int | Satisfaction level of Food and drink (1-5) |
+| **Online boarding** | int | Satisfaction level of online boarding (1-5) |
+| **Seat comfort** | int | Satisfaction level of Seat comfort (1-5) |
+| **Inflight entertainment** | int | Satisfaction level of inflight entertainment (1-5) |
+| **On board service** | int | Satisfaction level of On-board service (1-5) |
+| **Leg room service** | int | Satisfaction level of Leg room service (1-5) |
+| **Baggage handling** | int | Satisfaction level of baggage handling (1-5) |
+| **Check in service** | int | Satisfaction level of Check-in service (1-5) |
+| **Inflight service** | int | Satisfaction level of inflight service (1-5) |
 | **Cleanliness** | int | Satisfaction level of Cleanliness (1-5) |
-| **Departure_Delay** | int | Minutes delayed when departure |
-| **Arrival_Delay** | int | Minutes delayed when Arrival |
+| **Departure Delay** | int | Minutes delayed when departure |
+| **Arrival Delay** | int | Minutes delayed when Arrival |
 | **Satisfaction** | varchar(32) | Airline satisfaction level (Satisfaction/neutral or dissatisfaction) |
 
 ### Supervised Learning Model
