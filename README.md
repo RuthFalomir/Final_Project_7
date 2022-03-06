@@ -73,7 +73,7 @@ The database contains an airline passenger satisfaction survey, the factors that
 | **Arrival Delay** | int | Minutes delayed when Arrival |
 | **Satisfaction** | varchar(32) | Airline satisfaction level (Satisfaction/neutral or dissatisfaction) |
 
-### Supervised Learning Model
+### Machine Learning Model
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions.
 
 Supervised learning is an approach to creating artificial intelligence, where a our algorithm is trained on input data of Airline Passenger Satisfaction,that has been labeled. The model will be trained until it can detect a relationships between the input data and the output labels.
@@ -82,7 +82,8 @@ In this project we are determining the satisfaction for a future customer.
 
 ![Graph](images/MLM.png)
 
-#### Preliminary data preprocessing 
+
+#### Data preprocessing 
 In order to clean and prepar the data for the model, several steps were established. They go as follows:
 1. It was first checked for null or empty values. If so, they were dropped from our dataframe.
 2. Secondly, every column was defined as either numerical or categorical. 
