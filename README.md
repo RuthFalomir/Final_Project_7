@@ -73,7 +73,7 @@ The database contains an airline passenger satisfaction survey, the factors that
 | **Arrival Delay** | int | Minutes delayed when Arrival |
 | **Satisfaction** | varchar(32) | Airline satisfaction level (Satisfaction/neutral or dissatisfaction) |
 
-### Machine Learning Model
+## Machine Learning Model
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions.
 
 Supervised learning is an approach to creating artificial intelligence, where a our algorithm is trained on input data of Airline Passenger Satisfaction,that has been labeled. The model will be trained until it can detect a relationships between the input data and the output labels.
@@ -82,6 +82,20 @@ In this project we are determining the satisfaction for a future customer.
 
 ![Graph](images/MLM.png)
 
+#### Dataset Information
+This dataset contains the outcomes of **103,904** airline passenger satisfaction survey. The variables of this dataset are highly correlated to predict if the passenger could become a loyal customer. According to the importance of customer loyalty programs - statistics and trends, **80%** of a company’s future revenue will come from just 20% of existing clients. This way, the airline could launch a loyalty program strategy to overcome the post-pandemic hardships. 
+
+The dataset includes the following columns:
+
+* `gender`: Gender of the passengers (Female/Male).
+* `customer type`: The customer type (Loyal customer/Disloyal customer).
+* `age`: The actual age of the passengers.
+* `type travel`: Purpose of the flight of the passengers (Personal Travel/Business Travel).
+* `class`: Travel class in the plane of the passengers (Business/Eco/Eco Plus).
+* `flight distance`: The flight distance of this journey.
+* `departure delay`: Minutes delayed when departure.
+* `arrival delay`: Minutes delayed when arrival.
+* `satisfaction`: Airline satisfaction level (satisfied/neutral or dissatisfied).
 
 #### Data preprocessing 
 In order to clean and prepar the data for the model, several steps were established. They go as follows:
