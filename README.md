@@ -129,16 +129,20 @@ The defined target was Customer type, where only two options are available: loya
 We split the dataset into **random** train and test subsets using the Scikit-learn **train_test_split** module. The training subset will be used in the model to learn from it and the testing subset to assess its performance. We configure the **train_test_split** module with four arguments:
 
 * The `input X` variables
-* The `output y` or what we wish to predict: **customer type** 
+* The `output y` or what we wish to predict: **Customer type** 
 * `random_state` of 1 to ensure that the equals rows are assigned to train and test sets, respectively.
 * `stratify` enabled to divide the number of loyal and disloyal customers proportionally 
 
-#### Explanation of model choice, including limitations and benefits
-The model chosen was logistic regression. These models are used to analyze data and, mathematically determining the probability of new samples belonging to a class. There are only two possible answers.
+#### Model choice
+The model chosen was logistic regression. A logistic regression model is a classification algorithm that can analyze continuous and categorical variables. With the combination of input variables, logistic regression predicts the probability of the input data belonging to one of two groups. On the other hand, we consider a logistic regression model due to the number of data points in our dataset being fewer than two hundred thousand (103,904) with eight independent variables and one target. Also, our dataset contains numerical and categorical variables.
 
-For this investigation,  the objective was to predict whether new purchasing clients will be loyal or disloyal. The purpose of predicting this outcome is to create better loyalty programs and to dedicate resources to the right customers. 
+For this investigation, the objective was to predict whether new purchasing clients will be loyal or disloyal. The purpose of predicting this outcome is to create better loyalty programs and to dedicate resources to the right customers. 
 
 After creating the model, it was confirmed that this particular data could be correctly analyzed using this strategy.
+
+<img src="images/mlm_03.PNG" width="450" >
+
+#### Fit (train) the model using the training data
 
 
 ### Technologies
