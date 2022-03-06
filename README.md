@@ -194,7 +194,7 @@ It will help us to plot, debugg, and manage our data, mainly to find correlation
 Visualization software of interactive data that will help us to show the results in a better comprehensive way. 
 
 
-### Dashboard
+## Dashboard
 Tableau is a visual analytics engine that makes it easier to create interactive visual analytics in the form of dashboards.
 We choose Tableau to create our dashboard because is a powerful tool with data visualization capabilities and data can be analyzed very quickly. Tableau allows us to create workbooks with all the data to guide us in our exploration.
 
