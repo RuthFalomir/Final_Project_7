@@ -140,7 +140,7 @@ For this investigation, the objective was to predict whether new purchasing clie
 
 After creating the model, it was confirmed that this particular data could be correctly analyzed using this strategy.
 
-<img src="images/mlm_03.PNG" width="450" >
+<img src="images/mlm_03.PNG" width="550" >
 
 #### Fit (train) the model using the training data
 
