@@ -98,6 +98,7 @@ The dataset includes the following columns:
 * `satisfaction`: Airline satisfaction level (satisfied/neutral or dissatisfied).
 
 <img src="images/mlm_01.PNG">
+![Graph](images/mlm_01.PNG)
 
 #### Data preprocessing 
 In order to clean and prepar the data for the model, several steps were established. They go as follows:
