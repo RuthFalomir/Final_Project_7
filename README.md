@@ -120,15 +120,18 @@ must be converted to numerical data for use in our machine learning model. In or
 
 <img src="images/mlm_02.PNG" width="650" >
 
-#### Preliminary feature engineering and preliminary feature selection
+#### Feature engineering and feature selection
 Based on available data, the decision was made to keep every column except for any column that worked as an identifier. This was decided because the rest of the columns referred to customer satisfaction and flight characteristics. Bottom line, all the rest of available columns have an impact on loyalty, and therefore, were considered to be important for the analysis.  
 
 #### Splitting data into training and testing sets
-The defined target was Customer type, where only two options are available: loyal or disloyal.
-On the other hand, our features can be found on the Database section of this document.  
+The defined target was Customer type, where only two options are available: loyal or disloyal. On the other hand, our features can be found on the Database section of this document.  
 
-The data's split for the purpose of this model is as follows: 75% dedicated to training the model and 25% dedicated to testing the model. This decision was made based on the fact that the library train_test_split uses those arguments by default. 
+We split the dataset into **random** train and test subsets using the Scikit-learn **train_test_split** module. The training subset will be used in the model to learn from it and the testing subset to assess its performance. We configure the **train_test_split** module with four arguments:
 
+* The `input X` variables
+* The `output y` or what we wish to predict: **customer type** 
+* `random_state` of 1 to ensure that the equals rows are assigned to train and test sets, respectively.
+* `stratify` enabled to divide the number of loyal and disloyal customers proportionally 
 
 #### Explanation of model choice, including limitations and benefits
 The model chosen was logistic regression. These models are used to analyze data and, mathematically determining the probability of new samples belonging to a class. There are only two possible answers.
