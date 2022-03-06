@@ -142,7 +142,7 @@ After creating the model, it was confirmed that this particular data could be co
 
 <img src="images/mlm_03.PNG" width="550" >
 
-<img src="images/lgm.png" width="400" >
+<img src="images/lgm.png" width="300" >
 
 #### Fit (train) the model using the training data
 Due to the variables values of flight distance and flight delay (departure and arrival) in miles and minutes, respectively, the data train subset was scaled using the Scikit-learn **StandardScaler** module. After adjusting the training dataset, we trained the logistic regression model using the **fit()** method with **77,928 data points**.
