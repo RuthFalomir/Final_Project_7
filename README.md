@@ -97,7 +97,7 @@ The dataset includes the following columns:
 * `arrival delay`: Minutes delayed when arrival.
 * `satisfaction`: Airline satisfaction level (satisfied/neutral or dissatisfied).
 
-<img src="images/mlm_01.PNG" width="350" >
+<img src="images/mlm_01.PNG" width="650" >
 
 #### Data preprocessing 
 In order to clean and prepar the data for the model, several steps were established. They go as follows:
