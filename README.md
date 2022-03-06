@@ -147,7 +147,7 @@ Due to the variables values of flight distance and flight delay (departure and a
 
 <img src="images/mlm_04.PNG" width="400" >
 
-<img src="images/mlm_05.PNG" width="400" >
+<img src="images/mlm_05.PNG" width="450" >
 
 ### Technologies
 
