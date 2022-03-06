@@ -99,15 +99,26 @@ The dataset includes the following columns:
 
 <img src="images/mlm_01.PNG" width="650" >
 
+To start the data preprocessing, the dataset was then sent to Postgresql using Amazon Web Services.
+
 #### Data preprocessing 
-In order to clean and prepar the data for the model, several steps were established. They go as follows:
-1. It was first checked for null or empty values. If so, they were dropped from our dataframe.
-2. Secondly, every column was defined as either numerical or categorical. 
-3. Identifying unique values in every column.   
-4. Based on those unique values, categorical columns were encoded to transform them into numerical values.
-5. Bins were created for several numerical columns in order to better use data for analysis.
-6. Several columns were dropped because they were identifiers of some sort. 
-7. Data was then sent to Postgresql using Amazon Web Services. 
+The dataset contains categorical and text features (gender, customer type, type travel, class and satisfaction). Therefore, these features 
+must be converted to numerical data for use in our machine learning model. In order to clean and prepare the data for the model, several steps were established. They go as follows:
+
+1. Detect missing values with the Pandas DataFrame function *isna()*.
+2. Make sure we are using the correct variables data types -Pandas DataFrame *dtypes* property.
+3. Use Scikit-learns *LabelEncoder* module to transform categorical and text variables into numerical data as follows:
+    
+* `gender`: 0 (Female), 1 (Male)
+* `customer_type`: 0 (Loyal Customer), 1 (Disloyal Customer)
+* `type_travel`: 0 (Business travel), 1 (Personal Travel) 
+* `class`: 0 (Business), 1 (Eco), 2 (Eco Plus)
+* `satisfaction`: 0 (neutral or dissatisfied), 1 (satisfied)
+
+4. Drop the identification `id` column.
+5. Finally, verify the information about the DataFrame, including the index type and columns, non-null values, and memory usage.
+
+<img src="images/mlm_02.PNG" width="650" >
 
 #### Preliminary feature engineering and preliminary feature selection
 Based on available data, the decision was made to keep every column except for any column that worked as an identifier. This was decided because the rest of the columns referred to customer satisfaction and flight characteristics. Bottom line, all the rest of available columns have an impact on loyalty, and therefore, were considered to be important for the analysis.  
