@@ -149,7 +149,29 @@ Due to the variables values of flight distance and flight delay (departure and a
 
 <img src="images/mlm_05.PNG" width="450" >
 
-### Technologies
+#### Final Accuracy score
+The model achieved an accuracy score of **0.89** which means that nine of ten observations in the testing set were predicted correctly. Thus, this extremely high metric should raise our suspicion of **overfitting**. However, testing the model with another dataset that contains the outcomes of **25,976** airline passenger satisfaction surveys turns out a similar accuracy score of **0.9**
+
+<img src="images/mlm_06.PNG" width="450" >
+
+#### Confusion Matrix
+**Precision**
+
+From our results, the precision for the loyal customers can be determined by the ratio TP/ (TP + FP), which is 20,082/ (20,082 + 1,758) = 0.9195. The precision for the disloyal customers can be determined as follows: 2,987/ (2,987 + 1,149) = 0.7221. Thus, this high precision is indicative of a low number of false positives predictions.
+
+**Recall**
+
+From our results, the recall for the loyal customers can be determined by the ratio TP/ (TP + FN), which is 20,082/ (20,082 + 1,149) = 0.9458. The recall for the disloyal customers can be determined as follows: 2,987/ (2,987 + 1,758) = 0.6295. Thus, this high recall is indicative of a low number of false negative predictions.
+
+**F1 score**
+
+From our results, the harmonic mean can be determined by the formula 2(Precision * Sensitivity)/ (Precision + Sensitivity), which is 0.93 and 0.67 for the loyal and disloyal customers, respectively. Therefore, the high sensitivity means that among loyal customers, most of them will be diagnosed correctly. High precision, on the other hand, means that if the test comes back positive, there's a high likelihood that the customer is loyal.
+
+<img src="images/mlm_07.PNG" width="450" >
+
+<img src="images/mlm_08.PNG" width="450" >
+
+## Technologies
 
 **Jupyter Notebook** -  https://jupyter.org/
 
