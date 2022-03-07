@@ -2,7 +2,9 @@
 
 Are loyalty programs a valid strategy for airline companies to overcome post-pandemic hardships?
 
+### Google Slides Presentation link
 https://docs.google.com/presentation/d/1k4jHjoYMHhdZKnQShsRYQK2yTnBShRqGOoqXQPvVq5U/edit?usp=sharing
+
 
 ## Selected Topic
 Covid-19 has turned the whole world upside down. Many of the strongest, toughest industries have had to rethink their business models and strategies. Governments and companies alike, have come to realize that they cannot keep working the same way as before the pandemic. Time has come to make necessary adjustments to survive and to rebuild what has been affected. 
@@ -203,4 +205,4 @@ We choose Tableau to create our dashboard because is a powerful tool with data v
 The integration to work with raw data was definitively a key functionality so we can import our database and work directly in different worksheets. Adding datasets was very simple, we create a CSV file from the current database located in AWS. When we process all the dashboards it was easy to share the story and collaborate with the team.
 
 #### Description of interactive element(s)
-One of the most interesting tools that Tableau provides is interactivity. Some of the graphs created can be modified by the viewer using several filters in order to make a deeper analysis. The tableau dashboard can be viewed publicly here: https://public.tableau.com/views/SatisfactionFinal/PassengerSatisfaction?:language=en-US&:display_count=n&:origin=viz_share_link
+One of the most interesting tools that Tableau provides is interactivity. Some of the graphs created can be modified by the viewer using several filters in order to make a deeper analysis. The tableau dashboard can be viewed publicly here: https://public.tableau.com/app/profile/jesus.salas6470/viz/Dashboard_16464975652980/FinalDashboard
