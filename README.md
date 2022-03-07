@@ -2,6 +2,8 @@
 
 Are loyalty programs a valid strategy for airline companies to overcome post-pandemic hardships?
 
+https://docs.google.com/presentation/d/1k4jHjoYMHhdZKnQShsRYQK2yTnBShRqGOoqXQPvVq5U/edit?usp=sharing
+
 ## Selected Topic
 Covid-19 has turned the whole world upside down. Many of the strongest, toughest industries have had to rethink their business models and strategies. Governments and companies alike, have come to realize that they cannot keep working the same way as before the pandemic. Time has come to make necessary adjustments to survive and to rebuild what has been affected. 
 
