@@ -170,6 +170,11 @@ From our results, the harmonic mean can be determined by the formula 2(Precision
 
 ![Outline Process](https://user-images.githubusercontent.com/90433064/157601017-43c386fa-95ba-4781-9cac-69145ee982b4.jpg)
 
+## Conclusions & Recommendations
+
+As mentioned by my colleagues, our logistic regression model worked correctly to identify the customer type which will become part of a bigger marketing strategy related to loyalty programs for Mexicana Aviacion. 
+
+We recommend as a topic for further research to look into the features that have the 20-25 age group dissatisfied in order to retain them as loyal clients in the future. 
 
 
 ## Technologies
