@@ -30,22 +30,13 @@ As stated previously, companies are actively trying to regain what was lost duri
 
 In order to obtain some knowledge about the main issue at hand, a few other questions were born. First of all, can a machine learning model predict the type of customer (loyal vs disloyal) a ticket purchaser will become in the future? What factors are highly correlated to the decision to become a loyal customer? Secondly, which are the areas of opportunity?; especifically, where during the "buying of a ticket to completing the flight" process does the company lose or gain the client's loyalty? 
 
-
-## Communication protocols
-Roles are assigned to every member of the investigation team. Based on these, coworkers know their particular set of activities and responsiblities and boundaries were set between each position in order to maintain a cohesive and ordered workspace. In order to accomplish an effective workflow, there is a team member assigned to manage any requests or complaints from the rest of the team. If there are any issues to be handled, there will be a 15-min session on Saturdays to work it out. 
-
-During weekdays, the team meeting is designated on Tuesdays and Thursdays from 7:00pm to 10:00pm. During this time, team members can work on their individual activities or brain-storm about general issues met during the investigation. An additional meeting was set on Saturdays in order to review the week's advances and plan for the week ahead. 
-
-The official tool for communicating is Slack. Any and all investigation related topics shall be discussed using the official channels in order to keep track of the team's progress. 
-
-
 ## Data exploration phase of the project 
 The investigation began by a general analysis of the tourism and travel industry and how it changed during the course of the pandemic, with the purpose of understading the current situation better. Once that was done, the data analytics team looked for databases that could be used to implement our proposed model and build up the prediction strategy. 
 
 Many databases were compared, looking for data that represented the current industry's situation more precisely. However, we are currently developing our machine-learning model based on the database previously mentioned. 
 
 ## Description of the analysis phase of the project
-At this point in the investigation, the team is tirelessly working towards achieving the best possible machine-learning model. Many tweaks are being analyzed in order to make our predictions stronger. 
+At this point in the investigation, the team is working towards achieving the best possible machine-learning model. Many tweaks are being analyzed in order to make our predictions stronger. 
 
 
 ### Database
@@ -80,11 +71,10 @@ The database contains an airline passenger satisfaction survey, the factors that
 ## Machine Learning Model
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions.
 
-Supervised learning is an approach to creating artificial intelligence, where a our algorithm is trained on input data of Airline Passenger Satisfaction,that has been labeled. The model will be trained until it can detect a relationships between the input data and the output labels.
+Supervised learning is an approach to creating artificial intelligence, where our algorithm is trained on input data of Airline Passenger Satisfaction,that has been labeled. The model will be trained until it can detect a relationship between the input data and the output labels.
 
 In this project we are determining the satisfaction for a future customer. 
 
-![Graph](images/MLM.png)
 
 #### Dataset Information
 This dataset contains the outcomes of **103,904** airline passenger satisfaction survey. The variables of this dataset are highly correlated to predict if the passenger could become a loyal customer. According to the importance of customer loyalty programs - statistics and trends, **80%** of a company’s future revenue will come from just 20% of existing clients. This way, the airline could launch a loyalty program strategy to overcome the post-pandemic hardships. 
@@ -176,6 +166,11 @@ From our results, the harmonic mean can be determined by the formula 2(Precision
 <img src="images/mlm_07.PNG" width="450" >
 
 <img src="images/mlm_08.PNG" width="450" >
+
+
+![Outline Process](https://user-images.githubusercontent.com/90433064/157601017-43c386fa-95ba-4781-9cac-69145ee982b4.jpg)
+
+
 
 ## Technologies
 
